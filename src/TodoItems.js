@@ -20,7 +20,7 @@ class TodoItems extends Component {
 
 
   createTasks(item) {
-    return <li key={item.key}>{item.text}</li>
+    return <li key={item.key}>   {item.text}     </li>
   }
 
   createTasks(item) {
